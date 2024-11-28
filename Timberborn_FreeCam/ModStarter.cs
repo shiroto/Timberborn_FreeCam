@@ -8,7 +8,6 @@ namespace Timberborn_FreeCam
         public void StartMod(IModEnvironment modEnvironment)
         {
             Harmony harmony = new("com.marcok.freecam");
-            Harmony.DEBUG = true;
             harmony.PatchAll();
         }
     }
